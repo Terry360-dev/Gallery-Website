@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    color: #2E4A62;
+    text-align: center;
+}
+
+.nav-container {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .FAS {
+    color: #0033cc;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff6f61;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+h1,
+h3,
+p {
+    transition: color 0.3s, transform 0.3s;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2E4A62;
+    margin: 20px 0;
+    transition: color 0.3s, transform 0.3s;
+
+}
+
+h1:hover {
+    color: #ff6f61;
+    /* Change color on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+h3 {
+    color: #2E4A62;
+    margin: 15px 0;
+    transition: color 0.3s, transform 0.3s;
+}
+
+h3:hover {
+    color: #ff6f61;
+
+    transform: scale(1.05);
+}
+
+p {
+    color: #2E4A62;
+    margin: 10px 0;
+    transition: color 0.3s, transform 0.3s;
+}
+
+p:hover {
+    color: #ff6f61;
+    transform: scale(1.05);
+}
+
+.gallery-container {
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.head-text {
+    background-color: #6B5B95;
+    color: #F7CAC9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.8);
+}
+
+.head-text h1,
+.head-text h3,
+.head-text p {
+    margin: 10px 0;
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: #2E4A62;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px 5px rgba(255, 215, 0, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 220px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.2);
+}
+
+.gallery-item h3,
+.gallery-item p {
+    color: #F7CAC9;
+    margin: 10px 0;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px 10px rgba(255, 105, 180, 0.8);
+}

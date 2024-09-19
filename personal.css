@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    color: #2E4A62;
+    text-align: center;
+}
+
+.nav-container {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .FAS {
+    color: #0033cc;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff6f61;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 3px rgba(255, 105, 180, 0.8);
+    /* Pink shadow */
+}
+
+.content-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.content-section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.content-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    /* Red shadow */
+}
+
+.content-section h2 {
+    color: #000;
+    margin: 0;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.content-section:hover h2 {
+    color: #ff6f61;
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.8);
+    /* Pink shadow */
+}
+
+.content-section p {
+    color: #000;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.content-section:hover p {
+    color: #ff6f61;
+    text-shadow: 1px 1px 3px rgba(255, 105, 180, 0.8);
+    /* Pink shadow */
+}
+
+.about-me {
+    background: #fbe8a6;
+    background-image: url('about-me-bg.jpg');
+    background-size: cover;
+}
+
+.portfolio {
+    background: #f9cb9c;
+    background-image: url('portfolio-bg.jpg');
+    background-size: cover;
+}
+
+.hobbies {
+    background: #f6c6ea;
+    background-image: url('hobbies-bg.jpg');
+    background-size: cover;
+}
+
+.contact {
+    background: #b9fbc0;
+    background-image: url('contact-bg.jpg');
+    background-size: cover;
+}
+
+.section-img {
+    width: 60%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 3px rgba(0, 255, 0, 0.8);
+}
+
+a {
+    color: #0033cc;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #ff6f61;
+    text-shadow: 1px 1px 3px rgba(255, 105, 180, 0.8);
+}
